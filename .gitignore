@@ -1,0 +1,13 @@
+node_modules
+node_modules_linux
+server/localdev-config.json
+node_modules
+
+server/localdev-config.json
+vcap-local.js
+credentials.json
+localdev-config.json
+.git_old/
+.nyc_output/
+.bluemix/
+public/js/bundle.js

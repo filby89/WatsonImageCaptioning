@@ -1,0 +1,12 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: ImageCaptionDataScienceCourse
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 256MB
+  domain: mybluemix.net
+  host: watson-text-to-speech-basic-zsvdh
+  services:
+    - image-caption-data-scien-text-to-sp-1530645859952

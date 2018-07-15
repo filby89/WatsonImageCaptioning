@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "watson_text_to_speech_password": {
+    "searchPatterns": [
+      "cloudfoundry:$['282c1d79-9176-4597-9cff-941a8d6cfd4c'][0].credentials.password",
+      "env:service_watson_text_to_speech:$.password",
+      "env:watson_text_to_speech_password",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_password",
+      "file:localdev-config.json$.watson_text_to_speech_password"
+    ]
+  },
+  "watson_text_to_speech": {
+    "credentials": {
+      "searchPatterns": [
+        "cloudfoundry:watson_text_to_speech",
+        "env:watson_text_to_speech_credentials",
+        "file://localdev-config.json:watson_text_to_speech_credentials"
+      ]
+    }
+  },
+  "watson_text_to_speech_url": {
+    "searchPatterns": [
+      "cloudfoundry:$['282c1d79-9176-4597-9cff-941a8d6cfd4c'][0].credentials.url",
+      "env:service_watson_text_to_speech:$.url",
+      "env:watson_text_to_speech_url",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_url",
+      "file:localdev-config.json$.watson_text_to_speech_url"
+    ]
+  },
+  "watson_text_to_speech_username": {
+    "searchPatterns": [
+      "cloudfoundry:$['282c1d79-9176-4597-9cff-941a8d6cfd4c'][0].credentials.username",
+      "env:service_watson_text_to_speech:$.username",
+      "env:watson_text_to_speech_username",
+      "file:/server/localdev-config.json:$.watson_text_to_speech_username",
+      "file:localdev-config.json$.watson_text_to_speech_username"
+    ]
+  }
+}
