@@ -1,9 +1,8 @@
 # Watson Image Captioning Demo 
 
-This application employs the watson text-to-speech and visual recognition services for creating an image captioning application that describes an images and also 
+App Link:
+https://watson-text-to-speech-basic-zsvdh.mybluemix.net/
 
-The IBM Watson [Text to Speech](https://www.ibm.com/watson/services/text-to-speech) service is designed for streaming, low latency, synthesis of audio from text. It is the inverse of the automatic speech recognition.
+This application employs the watson text-to-speech and visual recognition services for creating an image captioning application that describes an image. The application also uses watson text-to-speech service for returning the result via audio.
 
-## Getting started
-## Open Source @ IBM
-  Find more open source projects on the [IBM Github Page](http://ibm.github.io/)
+We also use a custom API made in flask in order to get results in natural language using a CNN-RNN model.
